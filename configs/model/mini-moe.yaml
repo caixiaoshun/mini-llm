@@ -1,0 +1,24 @@
+_target_: src.models.mini_llm_module.MiniLLMLitModule
+
+
+net:
+  _target_: src.models.components.mini_moe.MiniMoE
+  config:
+    _target_: src.models.components.mini_moe.MiniMoEConfig
+    vocab_size: 32000 
+    num_layers: 12 
+    dim: 1024 
+    rope_base: 10000 
+    num_attention_q_heads: 16 
+    num_attention_kv_heads: 8 
+    num_expert: 8 
+    top_k: 4 
+    qkv_bias: False 
+    drop_rate: 0
+    use_aux_loss: true
+aux_loss_weight: 0.05
+lr: 5e-4
+warmup_ratio: 0.02
+min_lr_rate: 0.1
+# compile model for faster training with pytorch 2.0
+compile: true

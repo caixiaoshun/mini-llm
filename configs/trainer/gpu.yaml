@@ -1,0 +1,9 @@
+defaults:
+  - default
+
+accelerator: auto
+devices: auto
+precision: bf16-true
+
+min_epochs: 2
+max_epochs: 2
