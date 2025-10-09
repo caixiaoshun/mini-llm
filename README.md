@@ -14,7 +14,7 @@
 <p>
 	<a href="https://colab.research.google.com/drive/1EwVictfkx6OUlu3yDuKfebvxeVUNEdbg?usp=sharing"><img alt="Open mini-llm in Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 	<a href="https://colab.research.google.com/drive/1hoLR-S-YeCS01CVh4x8qg25cpSmGVcxu?usp=sharing"><img alt="Open mini-moe in Colab" src="https://colab.research.google.com/assets/colab-badge.svg"></a>
-	<a href="https://huggingface.co/spaces/caixiaoshun/mini-llm"><img alt="Open in Hugging Face Spaces" src="https://img.shields.io/badge/HuggingFace-Spaces-ffcc4d?logo=huggingface&logoColor=white"></a>
+	<a href="https://huggingface.co/spaces/caixiaoshun/mini-llm"><img alt="Open in Hugging Face Spaces" src="https://img.shields.io/badge/HuggingFace-Spaces-ffcc4d?logo=huggingface"></a>
 </p>
 
 <a href="https://huggingface.co/spaces/caixiaoshun/mini-llm">
