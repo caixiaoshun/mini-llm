@@ -18,7 +18,7 @@
 </p>
 
 <a href="https://huggingface.co/spaces/caixiaoshun/mini-llm">
-	<img src="assets/mini-llm-cover.png" alt="mini-llm cover image" style="width: 100%; max-width: 1200px; height: 360px; object-fit: cover;" />
+	<img src="assets/mini-llm-cover.png" alt="mini-llm cover image" />
 </a>
 <br/>
 
@@ -220,6 +220,11 @@ python src/train.py experiment=moe-pretrain trainer.max_epochs=1 trainer.limit_t
 
 
 ## 🚀 Inference and examples
+
+<div align="center">
+<img src="assets/result.png" alt="mini-llm running demo" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+<p><em>mini-llm inference demo - showing chat interface and model responses</em></p>
+</div>
 
 Two options: use `chat()` from `MiniLLM`/`MiniMoE` directly, or run the Streamlit chat app.
 
