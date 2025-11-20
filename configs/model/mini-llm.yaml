@@ -1,0 +1,21 @@
+_target_: src.models.mini_llm_module.MiniLLMLitModule
+
+
+net:
+  _target_: src.models.components.mini_llm.MiniLLM
+  config:
+    _target_: src.models.components.mini_llm.MiniLLMConfig
+    vocab_size: 32000
+    num_layers: 12
+    dim: 1024
+    rope_base: 10000
+    num_attention_q_heads: 64
+    num_attention_kv_heads: 32
+    qkv_bias: True
+    drop_rate: 0
+
+lr: 5e-4
+warmup_ratio: 0.02
+min_lr_rate: 0.1
+# compile model for faster training with pytorch 2.0
+compile: true

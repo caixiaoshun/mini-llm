@@ -1,0 +1,7 @@
+defaults:
+  - default
+
+# simulate DDP on CPU, useful for debugging
+accelerator: cpu
+devices: auto
+strategy: ddp_spawn
